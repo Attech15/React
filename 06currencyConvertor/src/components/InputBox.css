@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius:4px;
+}
+.leftcont{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    margin:0 5px;
+}
+.leftcont label{
+    font-size:15px;
+    color:gray;
+}
+.leftcont input {
+    width:70px;
+    margin-top:15px;
+    height:30px;
+    border:none;
+    -moz-appearance: textfield;
+    appearance: textfield;  
+}
+.rightcont{
+    display: flex;
+    flex-direction: column;
+    margin:0 5px;
+    position: relative;
+}
+.rightcont p{
+    font-size: 15px;
+    color:gray;
+}
+.rightcont #curr{
+    margin-top:15px;
+    height:30px;
+    border:none;
+    width:70px;
+    position:absolute;
+    right:0;
+    bottom:3px;
+    border-radius: 8px;
+    /* background: none; */
+    padding-left:5px;
+}
